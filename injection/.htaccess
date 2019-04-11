@@ -1,0 +1,5 @@
+ErrorDocument 401 "Unauthorized"
+AuthUserFile "/home/puredev/.htpasswds/public_html/batdb/injection/passwd"
+AuthType Basic
+AuthName "Master Bat Database"
+require valid-user
